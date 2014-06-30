@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeaderView" id="Nvp-fi-Chl" customClass="HeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBx-Nl-pup">
+                    <rect key="frame" x="20" y="14" width="280" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="sBx-Nl-pup" secondAttribute="bottom" constant="15" id="7PZ-hz-YbJ"/>
+                <constraint firstItem="sBx-Nl-pup" firstAttribute="leading" secondItem="Nvp-fi-Chl" secondAttribute="leading" constant="20" id="GXd-c6-h83"/>
+                <constraint firstAttribute="trailing" secondItem="sBx-Nl-pup" secondAttribute="trailing" constant="20" id="VLv-Op-rLg"/>
+                <constraint firstItem="sBx-Nl-pup" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Nvp-fi-Chl" secondAttribute="top" constant="14" id="fgm-ro-tPC"/>
+            </constraints>
+            <connections>
+                <outlet property="titleLabel" destination="sBx-Nl-pup" id="gQL-wZ-0zD"/>
+            </connections>
+            <point key="canvasLocation" x="187" y="200"/>
+        </collectionReusableView>
+    </objects>
+</document>
