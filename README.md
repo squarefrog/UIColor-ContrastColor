@@ -1,4 +1,4 @@
-UIColor+ContrastColor
+UIColor+ContrastingColor
 =====================
 
 Returns either black or white based on the contrast against the current colour.
@@ -17,7 +17,7 @@ The YIQ method is arguably better as it applies weighting to the colours, which 
 Using [CocoaPods](http://cocoapods.org), add the following to your Podfile
 
 ```ruby
-pod `UIColor+ContrastColor`
+pod 'UIColor+ContrastingColor'
 ```
 
 Alternatively, just drag the contents of the `Classes` folder into your project.
